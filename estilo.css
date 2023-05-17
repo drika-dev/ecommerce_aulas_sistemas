@@ -1,0 +1,54 @@
+/*Estilo da página*/
+#pagina{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+/* Estilo produtos*/
+#produtos {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 4px;
+}
+/* Banner */
+#banner{
+    width: 900px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 6px;
+}
+#bannerimg{
+    width: 900px;
+    height: 200px;
+    border-radius: 6px;
+}
+/* Menu */
+a{
+    text-decoration: none;
+    color: #B22222;
+}
+a:hover{
+    color: white;
+}
+#menu{
+    width: 900px;
+    height: 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+li {
+    margin: 0;
+    list-style: none;    
+    display: inline;
+    border-style: solid;
+    border-color: #DC143C;
+    color: rgb(82, 15, 145);
+    border-radius: 3px;
+}
+li:hover{
+    color: white;
+    background-color: #DC143C;
+    border-color: black;
+    border-radius: 3px;
+}
+
