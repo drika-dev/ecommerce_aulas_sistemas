@@ -32,5 +32,15 @@ while($indice != 10){
     echo '<br/> Indice: '. $indice;
     $indice++;
 }
+
+echo '<br/> Escreva um programa que leia 3 notas e o número de faltas de um aluno, calcule a sua média e determine e
+exiba a sua situação. Caso o aluno tenha mais de 10 faltas, ele está REPROVADO POR FALTA. Caso
+contrário, estará REPROVADO se sua média for menor que 6.0 ou APROVADO se sua média for superior a
+6.0.<br/> ';
+
+$nota1 = 2;
+$nota2 = 2;
+$nota3 = 2;
+$qtd_faltas = 10;
 include('components/rodape.php');
 ?>
