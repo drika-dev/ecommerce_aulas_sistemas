@@ -1,27 +1,54 @@
-<?php
-// Exemplo de if-else
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estruturas Condicionais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <?php include('components/menu.php'); ?>
+    <div class="container">
+        <h1>Estruturas Condicionais</h1>
+
+        <div class="code-block">
+            <h2>Exemplo de if-else</h2>
+            <pre>
+&lt;?php
 $idade = 25;
 
-if ($idade >= 18) {
+if ($idade &gt;= 18) {
     echo "Você é maior de idade.\n";
 } else {
     echo "Você é menor de idade.\n";
 }
+?&gt;
+            </pre>
+        </div>
 
-// Exemplo de if-elseif-else
+        <div class="code-block">
+            <h2>Exemplo de if-elseif-else</h2>
+            <pre>
+&lt;?php
 $nota = 75;
 
-if ($nota >= 90) {
+if ($nota &gt;= 90) {
     echo "Parabéns! Sua nota é A.\n";
-} elseif ($nota >= 80) {
+} elseif ($nota &gt;= 80) {
     echo "Ótimo! Sua nota é B.\n";
-} elseif ($nota >= 70) {
+} elseif ($nota &gt;= 70) {
     echo "Bom! Sua nota é C.\n";
 } else {
     echo "Estude mais! Sua nota é D.\n";
 }
+?&gt;
+            </pre>
+        </div>
 
-// Exemplo de switch-case
+        <div class="code-block">
+            <h2>Exemplo de switch-case</h2>
+            <pre>
+&lt;?php
 $diaSemana = 3;
 
 switch ($diaSemana) {
@@ -43,14 +70,34 @@ switch ($diaSemana) {
     default:
         echo "Bom final de semana!\n";
 }
+?&gt;
+            </pre>
+        </div>
 
-// Exemplo de operador ternário
+        <div class="code-block">
+            <h2>Exemplo de operador ternário</h2>
+            <pre>
+&lt;?php
 $idade = 20;
-$status = ($idade >= 18) ? "Maior de idade" : "Menor de idade";
+$status = ($idade &gt;= 18) ? "Maior de idade" : "Menor de idade";
 
 echo "Status: " . $status . "\n";
+?&gt;
+            </pre>
+        </div>
 
-// Exemplo de operador null coalescing
+        <div class="code-block">
+            <h2>Exemplo de operador null coalescing</h2>
+            <pre>
+&lt;?php
 $nome = $_GET['nome'] ?? "Visitante";
 
 echo "Olá, " . $nome . "\n";
+?&gt;
+            </pre>
+        </div>
+    </div>
+    <?php include('components/rodape.php'); ?>
+</body>
+
+</html>
